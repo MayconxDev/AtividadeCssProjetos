@@ -1,0 +1,101 @@
+ body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ .main-login{
+    width: 100vw; /* tela 1 vh = 1%*/
+    height: 100vh;
+    background: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+
+.left-login{
+   width: 50vw;
+   height: 100vh;
+   justify-items: center; /*alinha o elemento ao centro na horizontal*/
+    align-content: center;
+    
+}
+
+.left-login > h1 {
+   color: aquamarine;
+}
+.right-login{
+    width: 50vw; /* tela 1 vh = 1%*/
+    height: 100vh;
+    background: #201b2c;
+    display: flex;  /* Alinha elementos em coluna*/
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+   width: 60%;
+   display: flex;
+   justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #2f2841;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.card-login > h1{
+   color: #00ff88;
+   font-weight: 800;
+   margin: 0px 0px;
+}
+.textfield{
+   width: 100%;
+   display: flex; /*Deixa os item ao lado*/
+   flex-direction: column; /*decide a direção dos itens*/
+   align-items: flex-start;
+   justify-content: center;
+}
+
+.textfield > input{
+   width: 100%;
+   border:none;
+   border-radius: 10px;
+   padding:15px;
+   background: #fffff0;
+   color: #000000;
+   font-size: 12pt;
+   box-shadow: 0px 10px 40px #00000056;
+   outline: none;
+   box-sizing: border-box;
+
+}
+
+.textfield > label {
+   color: #fffff0;
+   margin-bottom: 10px;
+
+}
+
+.textfield > input::placeholder{
+   color: #000000;
+}
+
+.btn-login{
+  width: 100%;
+  padding: 16px 0px ;
+  margin: 25px;
+  border:none;
+  border-radius:8px;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 3px;
+  background: #00ff88;
+   box-shadow: 0px 10px 40px -12px #1b5604b4;
+}
+
+.img{
+   width: 500px;
+}
